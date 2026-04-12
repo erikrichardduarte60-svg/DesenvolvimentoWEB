@@ -1,0 +1,39 @@
+.titulo {
+        font-size: 60px;
+        color: black;
+        text-decoration: underline;
+        text-align: center; 
+        background-color: blue; 
+        width: 402px; 
+        margin: auto; 
+        border-radius: 42px;
+}
+.texto {
+        font-size: 25px;
+        color: black;
+}
+img {
+        width:"640"; 
+        height:"360";
+        border: solid black 5px;
+}
+ul li {
+    background-color:cadetblue;
+    padding: 10px;
+    width: 402px; 
+    margin: auto; 
+}
+ol li {
+    background-color:blueviolet;
+    padding: 10px;
+    width: 402px; 
+    margin: auto; 
+}
+.botao {
+    background-color: red;
+    width: 402px; 
+    margin: auto; 
+    color: black;
+    text-align: center; 
+    font-size: 60px;
+}
