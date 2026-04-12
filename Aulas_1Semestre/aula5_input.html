@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula5/input</title>
+</head>
+<body>
+    <form method="get">
+        <div>
+            Pesquisa:
+            <input type="search" name="pesquisa" value="" placeholder="Pesquisa">
+            <br><br>
+        </div>
+        <div>
+        Selecione seu estado:
+            <select id="estado" required> 
+                <option value='SP'>São Paulo</option>
+                <option value='RJ'>Rio de Janeiro</option>
+                <option value='BA'>Bahia</option>
+                <option value='AM'>Amazonas</option>
+                <option value='AC'>Acre</option>
+            </select>  
+            <label for="estado">*Campo Obrigatório</label>
+            <br><br>
+        </div>
+        <div>
+            Insira seu Nome:
+            <input type="text" name="Nome" value="Apenas Letras" placeholder="Seu Nome">
+            <br><br>
+        </div>
+        <div>
+            Digite sua senha:
+            <input id="senha" type="password" name="senha" value="" placeholder="Senha">
+            <label for="senha">*Campo Obrigatório</label>
+            <br><br>
+        </div>
+        <div>
+            Digite seu telefone:
+            <input type="tel" name="telwfone" value="" placeholder="(DDD) 0000-0000">
+            <br><br>
+        </div>
+        <div>
+            Insira o e-mail:
+            <input type="email" name="Email" value="Insira seu e-mail" placeholder="Seu E-mail">
+            <br><br>
+        </div>
+        <div>
+            Checkbox:
+            Sim<input type="checkbox" name="caixa" value="">
+            Não<input type="checkbox" name="caixa" value="">
+            <br><br>
+        </div>
+        <div>
+            CheckBox Radial:<br>
+            Marcador 1:
+            <input type="radio" name="marcador1" value="" checked="marcador1">
+            Marcador 2:
+            <input type="radio" name="marcador1" value="" checked="marcador1">
+            <br><br>
+        </div>
+        <div>
+            Horas:
+            <input type="time" name="horas" value="00:00" placeholder="Horas">
+            <br><br>
+        </div>
+        <div>
+            Data de hoje:
+            <input type="date" name="data" value="" placeholder="Data">
+            <br><br>
+        </div>
+        <div>
+            Data e hora:
+            <input type="datetime-local" name="data_hora" value="" placeholder="Data e Hora">
+            <br><br>
+        </div>
+        <div>
+            Semana:
+            <input type="week" name="semana" value="" placeholder="Semana">
+            <br><br>
+        </div>
+        <div>
+            Calendário:
+            <input type="month" name="calendario" value="" placeholder="Calendário">
+            <br><br>
+        </div>
+        <div>
+            Input Escondido:
+            <input type="hidden" name="hidden" value="" placeholder="Hidden">
+            <br><br>
+        </div>
+        <div>
+            Paleta de cor:
+            <input type="color" name="cor" value="yellow" placeholder="Cor">
+            <input type="color" name="cor2" value="blueviolet" placeholder="Cor">
+            <br><br>
+        </div>
+        <div>
+            Ranged:
+            <input type="range" name="ranged" value="" placeholder="Ranged">
+            <br><br>
+        </div>
+        <div>
+            Imagem:
+            <input style="height: 200px; width: 200px;" type="image" name="imagem" src="chrome.jpg" value="vhrome.jpg" placeholder="Imagem">
+            <br><br>
+        </div>
+        <div>
+            Adicione um link
+            <input id="link" type="url" name="link" value="https://" placeholder="URL">
+            <label for="link">*Campo Obrigatório</label>
+            <br><br>
+        </div>
+        <div>
+            Botão File:
+            <input type="file" name="Upload" value="" placeholder="Upload">
+            <br><br>
+        </div>
+        <div>
+            Enviar:
+            <input type="button" name="enviar" value="Enviar" placeholder="Enviar">
+            <br><br>
+        </div>
+        <div>
+            Reset:
+            <input type="reset" name="reset" value="Limpar" placeholder="Reset">
+        </div>
+    </form>
+</body>
+</html>
