@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula5/contato</title>
+    <style>
+        .quadrado{
+            width: 200px; 
+            height: 200px; 
+            border: 2px solid black; 
+            padding: 10px
+        }
+        .mensagem{
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            resize: none;
+            padding: 10px
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Insira seu Nome:
+        <input type="text" name="Nome" value="Apenas Letras" placeholder="Seu Nome">
+        <br><br>
+    </div>
+    <div>
+        Selecione seu estado:
+            <select id="estado" required> 
+                <option value='SP'>São Paulo</option>
+                <option value='RJ'>Rio de Janeiro</option>
+                <option value='BA'>Bahia</option>
+                <option value='AM'>Amazonas</option>
+                <option value='AC'>Acre</option>
+            </select>  
+            <label for="estado">*Campo Obrigatório</label>
+            <br><br>
+        </div>
+        <div>
+            Digite seu telefone:
+            <input type="tel" name="telwfone" value="" placeholder="(DDD) 0000-0000">
+            <br><br>
+        </div>
+        <div>
+            Insira o e-mail:
+            <input type="email" name="Email" value="Insira seu e-mail" placeholder="Seu E-mail">
+            <br><br>
+        </div>
+        <div>
+            Data de hoje:
+            <input type="date" name="data" value="" placeholder="Data">
+            <br><br><br><br>
+        </div>
+        <div>
+            Assunto:
+            <input type="text" name="assuntu" value="" placeholder="Assunto">
+            <br><br>
+        </div>
+        <div class="quadrado">
+            <input class="mensagem" type="text"  name="mensagem" value="" placeholder="Digite sua mensagem">
+        </div>
+        <div>
+            Enviar:
+            <input type="button" name="enviar" value="Enviar" placeholder="Enviar">
+            <br><br>
+        </div>
+</body>
+</html>
