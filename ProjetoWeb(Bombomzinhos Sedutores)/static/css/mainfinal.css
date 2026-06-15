@@ -248,7 +248,7 @@ footer img {
     height: 527px;
 }
 .botao-centro {
-    margin: 50px 0px 89px 590px;
+    margin: 50px 0px 89px 400px;
     border-radius: 10px;
     --bs-btn-color: #fff;
     --bs-btn-bg: #ff1770;
@@ -270,4 +270,18 @@ footer img {
 }
 .margi-landi {
     margin-top: 180px;
+}
+.container2 {
+    display: flex;
+    gap: 20px;
+    margin: auto;
+}
+.cardss {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
 }
